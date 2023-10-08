@@ -36,4 +36,3 @@ class AdminSiteTests(TestCase):
         res = self.client.get(url)
 
         self.assertEquals(res.status_code, 200)
-
